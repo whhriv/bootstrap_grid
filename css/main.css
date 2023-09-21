@@ -1,0 +1,8 @@
+body {
+    background-color: pink;
+}
+.border {
+    border:2px solid green !important;
+    /* won't work because it's overridden by bootstrap.css */
+    /* can override with !important */
+}
